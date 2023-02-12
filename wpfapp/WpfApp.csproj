@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Experimental.System.Messaging" Version="1.1.0" />
+    <PackageReference Include="H.Pipes" Version="1.15.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="ScottPlot.WPF" Version="4.1.59" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PipeMessage\PipeMessage.csproj" />
+  </ItemGroup>
+
+</Project>

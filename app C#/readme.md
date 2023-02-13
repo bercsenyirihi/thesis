@@ -1,4 +1,4 @@
-#App C#
+App C#
 The main purpose of this project is to read in the following:
 - Via an API request get all symbols from Binance
 - Start reading on a predetermined amount of websockets the data of these symbols (I needed a limitation as my home network can't handle 1000+ websockets)
